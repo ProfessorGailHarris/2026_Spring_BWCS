@@ -47,7 +47,56 @@
 #average-Age = 13.5
 
 # PUZZLES about IF statements
+# HINT: you should mostly change the code on the line with IF (...)
 
+guess = 5
+
+#if (guess > 10):
+#  print ("You got this Right!")
+#else:
+#  print ("Ooops. Fix the 'if' clause.")
+
+#if guess > 1
+#  print("You got this right too!")
+
+#if guess = 5:
+#  print ("Guess should be 5 still. Value of guess is:", guess)
+
+
+# BONUS QUESTION: 
+
+#if guess > 5 and guess < 10:
+#  print ("Wooooo! I am brilliant.")
+#else
+#  print ("More work to do")
+  
 
 # PUZZLES about LOOPS
+max = 8
+i = 0
 
+#while (i > max):
+#  i = i + 1
+#  print ("Count up:", i)
+#  if (i == 8):
+#    print ("Well done!")
+
+#for i in range(5):
+#  print ("Count up using for loop:", i)
+#  if (i != 4):
+#    print("Good work! This only printed once")
+
+import random
+theNumber = random.randint(1, 10)  # Generate a random number between 1 and 10)
+guess = -1
+
+
+# HINT: the clues might be leading you astray
+
+#while (guess != theNumber):
+#    guess = int(input("Guess the number between 1 and 10: "))
+#    if guess > theNumber:
+#        print("Too low!")
+#    if guess < theNumber:
+#        print("Too high!")
+#print("Congratulations! You guessed the number is", theNumber)
